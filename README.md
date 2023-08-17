@@ -2,7 +2,7 @@
 Create Your NBA Team App
 
 ## Getting Started
-![flutter_01.png](flutter_01.png)
+![flutter_01.png](flutter_01.png) 
 ![flutter_02.png](flutter_02.png)
 "Create Your NBA Team" application is a simple Flutter app developed using Bloc State Management.
 
