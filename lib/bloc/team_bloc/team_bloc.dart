@@ -20,7 +20,7 @@ class TeamBloc {
   final StreamController<TeamEvent> _eventStreamController = StreamController();
 
   // Add/Remove Team
-  Future<void> _raFavs(TeamEvent event) async {
+  Future<void> _raTeam(TeamEvent event) async {
     if (event is AddTeamFetchedEvent) {
       await _teamDatabase.addToTeam(event.player);
       final yourTeamList = await _teamDatabase.getTeam();
